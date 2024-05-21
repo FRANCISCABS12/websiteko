@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.icon{
+    margin-right: 10px;
+}
+.search-bar {
+    margin-right: 35%;
+}
+.search-bar > input {
+    width: 500px;
+}
+.hero-image {
+    border: 2px solid black;
+}       
+.feature-icon{
+    border-radius: 50%;
+}
+
+
+.carousel-control-next-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 37%;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 2;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 37%;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 2;
+}
+.slides-product-description, .slides-product-price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.build-price{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next  {
+    width: 1.5%;
+}
+
+@media (max-width: 1000px) {
+    .bd-placeholder-img {
+        height: 200px;
+    }
+    
+}
+@media (max-width: 580px) {
+    .bd-placeholder-img {
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 722px) {
+    #carouselExampleDark {
+        border: 2px solid black;
+    }
+
+    .second-image, .third-image, .fourth-image{
+        display: none !important;
+    }
+
+}
